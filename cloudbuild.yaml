@@ -1,4 +1,4 @@
-isteps:
+steps:
   # build the container image
   #test
 - name: "gcr.io/cloud-builders/docker"
