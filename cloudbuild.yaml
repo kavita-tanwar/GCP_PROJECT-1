@@ -1,4 +1,4 @@
-isteps:
+steps:
   # build the container image
 - name: "gcr.io/cloud-builders/docker"
   args: ["build", "-tx§", "gcr.io/$PROJECT_ID/gcpdevops", "."]
